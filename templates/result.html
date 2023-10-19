@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+    <div class="header">
+        <marquee behavior="" direction=""><h1>Diabetes Predictor</h1></marquee>
+    </div>
+    <div class="results">
+        {% if prediction==1 %}
+        <h1>Prediction: <span class='danger'><center>Oops! You have DIABETES.</center></span></h1>
+        <center><video width="500px" height="300px" src="../static/Amour plastique  (The Napoleon song) There is nothing we can do....mp4" autoplay></video></center>
+        {% elif prediction==0 %}
+        <h1>Prediction: <span class='safe'>Great! You DON'T have diabetes.</span></h1>
+        {% endif %}
+    </div>
+</body>
+</html>
+

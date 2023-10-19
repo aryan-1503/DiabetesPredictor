@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Diabetes Predictor</h1>
+    </div>
+    <div class="ml-container">
+        <form action="/result.html", method="POST">
+            <div class="labels">
+                <label for="preg">Pregnancies</label>
+                <input type="text" name="pregnancies" placeholder="Number of Pregnancies eg 0.">
+            </div>
+            <div class="labels">
+                <label for="glu">Glucose</label>
+                <input type="text" name="glucose" placeholder="Glucose (mg/dL)"><br>
+            </div>
+            <div class="labels">
+                <label for="bp">Blood Pressure</label>
+                <input type="text" name="bloodpressure" placeholder="Blood Pressure"><br>
+            </div>
+            <div class="labels">
+                <label for="st">Skin Thickness</label>
+                <input type="text" name="skinthickness" placeholder="Skin Thickness"><br>
+            </div>
+            <div class="labels">
+                <label for="ins">Insulin</label>
+                <input type="text" name="insulin" placeholder="Insulin"><br>
+            </div>
+            <div class="labels">
+                <label for="bmi">BMI</label>
+                <input type="text" name="bmi" placeholder="Bmi"><br>
+            </div>
+            <div class="labels">
+                <label for="dpf">DPF</label>
+                <input type="text" name="dpf" placeholder="Diabetes Pedigree Function "><br>
+            </div>
+            <div class="labels">
+                <label for="age">Age</label>
+                <input type="text" name="age" placeholder="Age"><br>
+            </div>
+            <div class="buttons">
+                <input type="submit" value="Predict">
+            </div>
+
+        </form>
+    </div>
+
+    <script>
+
+    </script>
+
+</body>
+</html>
+
+
