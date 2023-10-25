@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 filename = 'diabetes-prediction-model.pkl'
-clf = pickle.load(open(filename,'rb'))
+clf = pickle.load(open(filename, 'rb'))
 
 app = Flask(__name__)
 
